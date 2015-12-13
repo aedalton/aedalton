@@ -26,11 +26,11 @@ a, button {
 	outline: none;
 }
 
-a {
+/*a {
 	color: #566473;
 	text-decoration: none;
 }
-
+*/
 a:hover, a:focus {
 	color: #34495e;
 }

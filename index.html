@@ -17,7 +17,7 @@
 <!-- Custom CSS -->
 <link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<!-- <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
 <link rel="stylesheet" type="text/css" href="css/component.css" />
 
 <!-- Custom Fonts -->
@@ -42,7 +42,8 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
+            <!-- <ul class="nav navbar-nav navbar-left"> -->
+             <ul class="list-inline">
                 <li>
                     <a href="https://plus.google.com/u/0/101977738582550520462/posts" class="btn-social btn-outline text-centered" style="margin-bottom: 10px"><i class="fa fa-fw fa-google-plus"></i></a>
                 </li>
@@ -52,11 +53,9 @@
                 <li>
                     <a href="https://www.linkedin.com/in/aedalton" class="btn-social btn-outline" style="margin-bottom: 10px"><i class="fa fa-fw fa-linkedin"></i></a>
                 </li>
-                </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
+                <!-- </ul> -->
+            <!-- <ul class="nav navbar-nav navbar-right"> -->
+               <div class="nav navbar-nav navbar-right">
                  <li class="page-scroll" style="font-size: 15px">
                     <a href="#about">About</a>
                 </li>
@@ -72,8 +71,8 @@
                     <a href="#contact">Contact</a>
                 </li>
      
+                </div>
             </ul>
-        </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
@@ -92,70 +91,75 @@
 
  <!-- About Section -->
 
-<section class="success" id="about">
+<section>
     <div class="container">
-         <h2 style="padding-top:140px"> Programmer, Aspiring Scientist </h2> 
-         <h4> Dartmouth College, Class of 2016</h4>
+         <h2 style="padding-top:100px"> Aspiring Scientist </h2> <!--  -->
+         <h4> Dartmouth College, Class of 2016 <i class="fa fa-tree"></i></h4>
                 <hr> 
-        <div class="about"
+        <div class="about">
 
       
         </div>
         <div class="row">
             <div class="col-lg-12 text-left">
-            <p> Hello, and welcome! I am an aspiring research-based programmer focused on using technology to enhance the scientific process.  At Dartmouth, I have had the privilege of combining a true passion for two seemingly disparate academic interests--Computer Science and Biology--through my coursework and involvement in a wide array of research projects.  I've discovered how truly compatible these fields are, resulting in my aspirational career goal to apply my skills and experience in these disciplines to medical research or a related field.</p>  
+            <p> Hello, and welcome! My name is Alexandra Dalton. I love technology, and it is my career goal to use and create technology to enhance the scientific process.  I am lucky and proud to call myself a member of the class of 2016 at Dartmouth College where I study Computer Science and Biology.  </p>  
             </div> 
         </div>
-    </div>
-    
-</section>
-
-
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
-    <div class="portfolio-container">
-        <div class="row">
-            <div class="col-lg-12 text-center" style="padding: 50px">
-                <h2>Portfolio</h2>
-                <hr> 
-                <!-- <hr class="star-primary"> -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 portfolio-item">
+          <div class="row" id="portfolio">
+        <div class="col-sm-4 portfolio-item text-justify">
+            <h3> Engineer </h3> 
+            <hr> 
+            I had never been exposed to programming or Computer Science before College.  I am passionate about this area of study and am grateful for the boundless possibilities that come with learning to code.  Since taking my first programming class my freshman year, I have been exposed to the infinite array of tools that come from coding--whether its designing architecture or the user's experience, programming is an artform that I have embraced wholeheartedly.  
+            <br> 
+            <br> 
+            <!-- <div class="col-sm-4 portfolio-item"> -->
                 <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
+                        <div class="caption-content" style="color:#fff">
+                            <i class="fa fa-angle-double-right fa-3x"></i>
                         </div>
                     </div>
                     <img src="img/code.png" class="img-responsive" alt="">
                 </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <!-- </div> -->
+
+        </div>
+
+        <div class="col-sm-4 portfolio-item text-justify">
+            <h3> Researcher </h3> 
+            <hr>
+
+                 <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
 
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
+                        <div class="caption-content" style="color:#fff">
+                            <i class="fa fa-angle-double-right fa-2x"></i>
                         </div>
                     </div>
                     <img src="img/tut.png" class="img-responsive" alt="">
                 </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
+        </div>
+
+        <div class="col-sm-4 portfolio-item text-justify">
+            <h3> Artist </h3> 
+            <hr> 
+
                 <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
+                        <div class="caption-content" style="color:#fff">
+                            <i class="fa fa-angle-double-right fa-3x"></i>
                         </div>
                     </div>
                     <img src="img/other.png" class="img-responsive" alt="">
                 </a>
-            </div>
-
+        </div>
     </div>
+    </div>
+
 </section>
+
+
+<!-- Portfolio Grid Section -->
 
 <!-- Contact Section -->
 <section id="contact">
@@ -245,7 +249,7 @@
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Attributes </h3>
-                    <p> This page was inpsired by StartBootstrap </a></p>
+                    <p> I am inspired by, and owe a debt of gratitude to, every single member of the CS department at Dartmouth College. </p>
                 </div>
             </div>
         </div>
